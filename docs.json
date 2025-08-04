@@ -1,11 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Alive",
   "colors": {
-    "primary": "#10111A",
-    "light": "#1A1B25",
-    "dark": "#F6F8FA"
+    "primary": "#10111A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -39,7 +37,7 @@
           }
         ]
       }
-      ]
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
