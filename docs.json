@@ -9,6 +9,9 @@
     "light": "/favicon_light.svg",
     "dark": "/favicon_dark.svg"
   },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
   "navigation": {
     "groups": [
           {
