@@ -20,10 +20,10 @@
             ]
           },
           {
-            "group": "Foundations",
+            "group": "Foundation",
             "pages": [
-              "Foundations/Color",
-              "Foundations/Typography"
+              "foundation/color",
+              "foundation/typography"
             ]
           },
           {
