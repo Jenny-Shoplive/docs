@@ -16,9 +16,10 @@
   "styling": {
     "eyebrows": "breadcrumbs"
   },
-  "heading": {
-    "family": "DM Sans",
-    "weight": "700"
+  "fonts": {
+    "heading": {
+      "family": "DM Sans"
+      }
   },
   "navigation": {
     "groups": [
