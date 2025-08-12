@@ -16,6 +16,9 @@
   "styling": {
     "eyebrows": "breadcrumbs"
   },
+  "icons": {
+    "library": "lucide"
+  },
   "fonts": {
     "heading": {
       "family": "DM Sans"
