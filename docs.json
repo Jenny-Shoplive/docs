@@ -22,8 +22,8 @@
           {
             "group": "Foundations",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "Foundations/Color",
+              "Foundations/Typography"
             ]
           },
           {
