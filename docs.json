@@ -3,10 +3,12 @@
   "theme": "maple",
   "name": "Alive",
   "colors": {
-    "primary": "#10111A",
-    "dark": "#F6F8FA"
+    "primary": "#10111A"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/favicon_light.svg",
+    "dark": "/favicon_dark.svg"
+  },
   "navigation": {
     "groups": [
           {
