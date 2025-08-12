@@ -32,10 +32,11 @@
           {
             "group": "Components",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "components/avatar",
+              "components/badge",
+              "components/banner",
+              "components/blankslate",
+              "components/breadcrumbs"
             ]
           }
         ]
