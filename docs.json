@@ -22,6 +22,11 @@
   "fonts": {
     "heading": {
       "family": "DM Sans"
+      },
+    "body": {
+      "family": "Pretendard Variable",
+      "weight": 450,
+      "format": "woff2"
       }
   },
   "navigation": {
