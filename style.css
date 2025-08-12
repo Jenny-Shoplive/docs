@@ -2,6 +2,10 @@
   width: 16rem !important;
 }
 
+#sidebar ul.w-\[calc\(19rem-1px\)\] {
+  width: calc(16rem - 1px) !important;
+}
+
 #sidebar-content {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
