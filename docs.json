@@ -22,7 +22,6 @@
   },
   "fonts": {
     "family": "Pretendard Variable",
-    "weight": 450,
     "source": "https://github.com/Jenny-Shoplive/docs/blob/dfc4e51c477dbe59445e3e476b5d57897ed1e5d4/static/fonts/PretendardVariable.woff2",
     "format": "woff2",
     "heading": {
