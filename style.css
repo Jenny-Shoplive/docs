@@ -78,10 +78,10 @@ html.dark #sidebar #sidebar-group > li > a.border-primary-light > svg,
 }
 
 #sidebar-content {
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 h5 {
