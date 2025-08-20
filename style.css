@@ -15,14 +15,6 @@
   padding-right: .75rem;
 }
 
-/* 아이콘(마스크) 기본 색 */
-#sidebar #sidebar-group > li > a > svg {
-  background-color: #9ca3af;
-}
-html.dark #sidebar #sidebar-group > li > a > svg {
-  background-color: #94a3b8;
-}
-
 /* 2) Hover 상태: 배경으로만 강조 */
 #sidebar #sidebar-group > li > a:hover {
   background: var(--sb-hover-bg-light);
