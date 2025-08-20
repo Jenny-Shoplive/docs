@@ -11,11 +11,8 @@
   border-left: 0 !important;               /* 기존 border-l 제거 */
   background: transparent;                  /* 기본 배경 투명 */
   border-radius: 10px;                      /* 둥근 모서리 */
-  padding-left: .5rem !important;            /* 필요시 조정 */
+  padding-left: .75rem !important;
   padding-right: .75rem;
-  padding-top: .375rem;
-  padding-bottom: .375rem;
-  margin-inline: .5rem;                     /* 좌우 여백(라운드가 벽에 붙지 않게) */
 }
 
 /* 아이콘(마스크) 기본 색 */
