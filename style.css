@@ -1,9 +1,9 @@
 
 :root {
-  --sb-hover-bg-light:  #f5f7fb;     /* 라이트 hover 배경 */
-  --sb-hover-bg-dark:   #232936;     /* 다크   hover 배경 */
-  --sb-active-bg:       rgba(59,130,246,.12); /* 선택(활성) 배경 예시 */
-  --sb-active-fg:       #2563eb;     /* 선택(활성) 텍스트/아이콘 색 예시 */
+  --sb-hover-bg-light: --alpha(var(--color-gray-950) / 4%);
+  --sb-hover-bg-dark: --alpha(var(--color-white) / 30%);
+  --sb-active-bg: --alpha(var(--color-gray-950) / 6%);
+  --sb-active-fg: var(--color-gray-900);     /* 선택(활성) 텍스트/아이콘 색 예시 */
 }
 
 /* sidebar 및 sidebar-group 하위 아이템 스타일 적용 */
