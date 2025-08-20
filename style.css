@@ -1,3 +1,70 @@
+
+:root {
+  --sb-hover-bg-light:  #f5f7fb;     /* 라이트 hover 배경 */
+  --sb-hover-bg-dark:   #232936;     /* 다크   hover 배경 */
+  --sb-active-bg:       rgba(59,130,246,.12); /* 선택(활성) 배경 예시 */
+  --sb-active-fg:       #2563eb;     /* 선택(활성) 텍스트/아이콘 색 예시 */
+}
+
+/* 사이드바 좌측 보더 제거 + 라운드 + 여백 스타일 */
+#sidebar #sidebar-group > li > a {
+  border-left: 0 !important;               /* 기존 border-l 제거 */
+  background: transparent;                  /* 기본 배경 투명 */
+  border-radius: 10px;                      /* 둥근 모서리 */
+  padding-left: 1rem !important;            /* 필요시 조정 */
+  padding-right: .75rem;
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+  margin-inline: .5rem;                     /* 좌우 여백(라운드가 벽에 붙지 않게) */
+}
+
+/* 아이콘(마스크) 기본 색 */
+#sidebar #sidebar-group > li > a > svg {
+  background-color: #9ca3af;
+}
+html.dark #sidebar #sidebar-group > li > a > svg {
+  background-color: #94a3b8;
+}
+
+/* 2) Hover 상태: 배경으로만 강조 */
+#sidebar #sidebar-group > li > a:hover {
+  background: var(--sb-hover-bg-light);
+}
+html.dark #sidebar #sidebar-group > li > a:hover {
+  background: var(--sb-hover-bg-dark);
+}
+
+/* 3) 선택(활성) 상태: Mintlify가 부여하는 클래스를 후킹 */
+#sidebar #sidebar-group > li > a.text-primary,
+#sidebar #sidebar-group > li > a.border-primary,
+html.dark #sidebar #sidebar-group > li > a.text-primary-light,
+html.dark #sidebar #sidebar-group > li > a.border-primary-light,
+#sidebar #sidebar-group > li[aria-current="page"] > a,    /* 일부 테마는 aria-current 사용 */
+#sidebar #sidebar-group > li[data-active="true"] > a      /* 혹시 data-active를 쓴다면 */
+{
+  background: var(--sb-active-bg) !important;
+  color: var(--sb-active-fg) !important;
+  border-left: 0 !important;               /* 혹시 남아있을 보더 방지 */
+  font-weight: 600;
+}
+
+/* 선택 상태의 아이콘 색도 맞춤 */
+#sidebar #sidebar-group > li > a.text-primary > svg,
+#sidebar #sidebar-group > li > a.border-primary > svg,
+html.dark #sidebar #sidebar-group > li > a.text-primary-light > svg,
+html.dark #sidebar #sidebar-group > li > a.border-primary-light > svg,
+#sidebar #sidebar-group > li[aria-current="page"] > a > svg,
+#sidebar #sidebar-group > li[data-active="true"] > a > svg {
+  background-color: var(--sb-active-fg) !important;
+}
+
+/* 4) 접근성: 키보드 포커스 시 윤곽선 */
+#sidebar #sidebar-group > li > a:focus-visible {
+  outline: 2px solid var(--sb-active-fg);
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
 #sidebar {
   width: 16rem !important;
 }
