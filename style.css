@@ -10,8 +10,8 @@
 #sidebar #sidebar-group > li > a {
   border-left: 0;
   border-radius: 10px;
-  padding-left: .75rem;
-  padding-right: .75rem;
+  padding-left: .75rem  !important;
+  padding-right: .75rem  !important;
   margin: 0;
 }
 
