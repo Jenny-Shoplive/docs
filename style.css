@@ -83,3 +83,7 @@ html.dark #sidebar #sidebar-group > li > a.border-primary-light > svg,
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+h5 {
+  font-weight: 500 !important;
+}
