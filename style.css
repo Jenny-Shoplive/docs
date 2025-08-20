@@ -65,7 +65,6 @@ html.dark #sidebar #sidebar-group > li > a.border-primary-light > svg,
 /* sidebar width 사이즈 조절 */
 #sidebar { --sb-w: 16rem; width: var(--sb-w) !important; }
 #sidebar .nav-logo { height: 1.25rem !important; } /* h-5 */
-#sidebar ul { width: calc(100% - 1px) !important; }
 
 /* sidebar-group 하위 모든 아이템의 margin 제거 */
 #sidebar-group li > a { margin: 0 !important; }
