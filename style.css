@@ -77,10 +77,22 @@ html.dark #sidebar #sidebar-group > li > a.border-primary-light > svg,
   width: calc(16rem - 1px) !important;
 }
 
+/* sidebar-group 하위 모든 li > a 의 margin 제거 */
+#sidebar-group li > a {
+  margin: 0 !important;
+}
+  
+/* sidebar group header 재정의 */
+.sidebar-group-header {
+  padding-left: 0.5rem !important;
+}
+
+/* navigation-items margin 마이너스 값 제거 및 재정의 */
 #navigation-items {
   margin: 0 !important;
 }
 
+/* sidebar padding 재정의 */
 #sidebar-content {
   padding-left: 1.25rem !important;
   padding-right: 1.25rem !important;
