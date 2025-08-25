@@ -1,8 +1,8 @@
 
 :root {
-  --sb-hover-bg-light: --alpha(var(--color-gray-950) / 4%);
-  --sb-hover-bg-dark: --alpha(var(--color-white) / 30%);
-  --sb-active-bg: --alpha(var(--color-gray-950) / 6%);
+  --sb-hover-bg-light: var(--color-gray-50);
+  --sb-hover-bg-dark: var(--color-gray-600);
+  --sb-active-bg: var(--color-gray-100);
   --sb-active-fg: var(--color-gray-900);     /* 선택(활성) 텍스트/아이콘 색 예시 */
 }
 
